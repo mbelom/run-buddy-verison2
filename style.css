@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: white
+
+}
+nav{
+    background: teal;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: yellow;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    text-align: left;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: yellow;
+    font-size: 17px;
+    padding: 15px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background: lightslategray;
+    transition: .5s:;
+}
+
+.box {
+    color: teal
+}
+.box-1{
+    color: teal;
+}
+.box-2{
+    color: teal;
+}
+.box-3{
+    color: teal;
+}
+.box-4{
+    color: teal;
+}
+footer{
+    background-color: yellow;
+    padding: 15px;
+    font-weight: bold;
+}
