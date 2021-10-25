@@ -1,24 +1,58 @@
 /*Secondary-page-hero Begins*/
 
 .secondary-hero {
-    background-image: url("/assets/images/hero-bg.jpg");
+    background-image: url('../images/hero-bg.jpg');
     height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
+    background-position: bottom;
+    height: auto;
+    text-align: center;
+    margin-bottom: 40px;
     
 }
 
-.page-title {
-    text-align: center;
-    text-decoration: underline;
-    color: #fce138;
-    font-size: 65px;
-}
 
+.page-title  {
+    color: #fce138;
+    display: inline-block;
+    border-bottom: 4px solid #fce138;
+    padding: 0 80px 15px 80px;
+    font-weight: normal;
+    font-size: 42px;
+    font-style: italic;
+    
+}
+/*Content Begins*/
 .content-secondary {
     margin: 20px;
     background-color: white;
     font-size: 20px;
     color: #024e76;
+    line-height: normal;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.content-secondary h3 {
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.content-secondary p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.content-secondary ul {
+    margin: 15px 20px;
+}
+
+.content-secondary ul li {
+    color: #39a6b2;
+    margin: 10px 0px;
 }
