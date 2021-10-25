@@ -2,9 +2,7 @@
 
 .secondary-hero {
     background-image: url('../images/hero-bg.jpg');
-    height: 600px;
     background-size: cover;
-    background-position: center;
     position: relative;
     background-position: bottom;
     height: auto;
@@ -26,14 +24,9 @@
 }
 /*Content Begins*/
 .content-secondary {
-    margin: 20px;
-    background-color: white;
-    font-size: 20px;
     color: #024e76;
-    line-height: normal;
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 
 }
 
