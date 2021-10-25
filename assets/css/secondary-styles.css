@@ -1,0 +1,24 @@
+/*Secondary-page-hero Begins*/
+
+.secondary-hero {
+    background-image: url("/assets/images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+.page-title {
+    text-align: center;
+    text-decoration: underline;
+    color: #fce138;
+    font-size: 65px;
+}
+
+.content-secondary {
+    margin: 20px;
+    background-color: white;
+    font-size: 20px;
+    color: #024e76;
+}
