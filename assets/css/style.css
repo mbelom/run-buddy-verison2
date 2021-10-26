@@ -245,20 +245,32 @@ section {
     text-align: center;
     background: #024e76;
 
+
 }
 
 .contact h2 {
     color:#fce138
 }
 
-.contact-info div {
+.contact-info {
     width: 410px;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
     vertical-align: top;
     text-align: left;
     margin: 30px 0 0 60px;
     color: white;
 }
+
+
+.contact-style {
+    display: inline-flex;
+   
+}
+
 
 .contact-info iframe {
     width: 400px;
