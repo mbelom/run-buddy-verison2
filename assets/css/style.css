@@ -238,7 +238,7 @@ section {
 }
 
 
-.step:not(:last-child) {
+.step:last-child {
     border-bottom: 1px solid #39a6b2;
   }
 
