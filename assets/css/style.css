@@ -117,8 +117,8 @@ section {
     background-color: #fce138;
     padding: 20px;
     color:#024e76;
-    width: 40%;
-    margin: 3.5%; 
+    margin: 3.5%;
+    width: 40%; 
     
 }
 
@@ -175,6 +175,10 @@ section {
     color: #024e76;
     font-size: 46px;
     flex: 1 30%;
+}
+
+.step-text {
+    flex: 12;
 }
 
 .step-text p {
@@ -343,10 +347,13 @@ section {
     font-size: 16px;
   }
 
-
-
   .contact-info a {
     color: #fce138;
+  }
+
+  .contact-info > * {
+      flex: 1;
+      margin: 15px;
   }
 
   /*Utilities*/
@@ -365,7 +372,52 @@ section {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-    header h1 a {
+header {
+    padding-bottom: 0;
+    justify-content: center;
+}
+
+header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  footer h2, footer div {
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero-cta, .hero-form {
+    width: 100%;
+  }
+  
+  .hero-cta {
+    text-align: center;
+  }
+
+  .section-title {
+    width: 80%;
+  }
+  
+  .trainer {
+    flex: 0 70%;
+  }
+  
+  .contact-info iframe{
+    flex: 1 100%;
+  }
+
+
       /* this will be applied on any screen smaller than 980px */
       
     }
@@ -373,11 +425,31 @@ section {
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
   @media screen and (max-width: 768px) {
-    header h1 {
-      /* this will be applied on any screen between 768px and 575px */
-      
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+      }
+    
+      header h1 {
+        width: 100%;
+        text-align: center;
+      }
+    
+      header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+      }
+    
+      header nav ul li a {
+        font-size: 20px;
+      }
+    
+      footer h2, footer div {
+        text-align: center;
+        width: 100%;
+      }
     }
-  }
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
