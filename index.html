@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <title>Run Buddy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
     <header>
@@ -107,6 +107,7 @@
       <div class="flex-row">
         <h2 class="section-title secondary-border">What You Do</h2>
       </div>
+
       <div class="step">
         <h3>Step 1.</h3>
           <div class="step-info">
@@ -136,6 +137,7 @@
       <div class="step">
         <h3>Step 3.</h3> 
         <div class="step-info">
+          <div class="step-img">
         <img src="./assets/images/01-04-svgs/step-3.svg" alt="" />
         </div>
         <div class="step-text">
@@ -235,28 +237,17 @@
             loading="lazy"
           ></iframe>
         </div>
-          <div class="contact-form">
-            <h3>Contact Us</h3>
-            <form>
-               <label for="contact-name">Your Name</label>
-               <input type="text" id="contact-name" placeholder="Your Name" />
-          
-               <label for="contact-message">Message</label>
-               <textarea id="contact-message" placeholder="Message"></textarea>
-          
-               <button type="submit">Submit</button>
-              </form>
-    
-        </div>
 
-        <div>
+        <div class="contact-info">
+          <div>
           <h3>Run Buddy</h3>
 
-          <p>
-            Any questions or concerns before signing up?
-            <br />
-            Let us know and we'll be happy to talk to you!
-          </p>
+            <p>
+              Any questions or concerns before signing up?
+              <br />
+              Let us know and we'll be happy to talk to you!
+            </p>
+
           <address>
             55 Main Street <br />
             Some Town, CA <br />
@@ -264,8 +255,22 @@
             P: 55.RUN.BUDZ (555.786.2839)<br />
             E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
           </address>
-        </div>
       </div>
+
+      <div class="contact-form">
+        <h3>Contact Us</h3>
+        <form>
+           <label for="contact-name">Your Name</label>
+           <input type="text" id="contact-name" placeholder="Your Name" />
+      
+           <label for="contact-message">Message</label>
+           <textarea id="contact-message" placeholder="Message"></textarea>
+      
+           <button type="submit">Submit</button>
+          </form>
+
+    </div>
+    
     </section>
 
     <footer>
