@@ -11,6 +11,7 @@
 
 .page-title {
     padding: 0 80px 15px 80px;
+    font-weight: 400;
     font-size: 42px;
     font-weight: 400;
     font-style: italic;
@@ -25,7 +26,6 @@
     color: #024e76;
     width: 80%;
     margin: 0 auto;
-
 }
 
 .content-secondary h3 {
@@ -47,3 +47,4 @@
     color: #39a6b2;
     margin: 10px 0px;
 }
+
